@@ -37,8 +37,9 @@ body{
 .crunchy-links{
     display: flex;
     justify-content: space-between;
+    width: fit-content;
     list-style: none;
-    gap: 5em;
+    
     
 }
 .crunchy-links a{
@@ -56,9 +57,19 @@ body{
     align-items: center;
     border: #5a3e66 solid;
     border-radius: 5px;
+    
 }
 .tier-three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: lightgrey;
+    text-align: center;
+    
+}
+.about-me{
+    width: 75%;
 }
 .tier-four{
  display: flex;
@@ -66,7 +77,7 @@ body{
  align-items: center;
  font-weight: bold;
  background: #835c94;
- margin-bottom: auto;
+ margin-bottom:inherit;
 }
 .tier-four a{
     color: #e8f2bb;
