@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #5a3e66;
+    gap: 5px;
+    color: #e8f2bb;
+}
+.links{
+    gap: 10px;
+    padding: 0 10px;
+    
+}
+.links a{
+    color:#e8f2bb;
+}
+.tiers{
+    display: flex;
+    flex-direction: column;
+}
+.tier-one{
+    display: flex;
+    justify-content: space-around;
+    background: #835c94;
+    font-weight: 700;
+}
+.tier-one-text p a button{
+    background: #5a3e66;
+    border-radius: 5px;
+    color: #e8f2bb;
+}
+.crunchy-links{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 5em;
+    
+}
+.crunchy-links a{
+    border: #835c94 solid;
+    border-radius: 5px;
+    padding: 5px;
+    background: #5a3e66;
+    color: #e8f2bb;
+    box-shadow: 2px 2px#5a3e66
+}
+.tier-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: #5a3e66 solid;
+    border-radius: 5px;
+}
+.tier-three{
+    background: lightgrey;
+}
+.tier-four{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-weight: bold;
+ background: #835c94;
+ margin-bottom: auto;
+}
+.tier-four a{
+    color: #e8f2bb;
+    outline-style: groove;
+    outline-color: #5a3e66;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 4px 4px #e8f2bb;
+    
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5a3e66;
+    color: #e8f2bb;
+    padding: 10px;
+    margin-top: auto;
+    
+}
